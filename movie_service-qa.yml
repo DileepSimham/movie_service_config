@@ -1,0 +1,16 @@
+movie:
+  service:
+    name: Movie Service (QA)
+    description: "Movie service for QA testing."
+    version: "1.0-QA"
+    supported-genres:
+      - "Action"
+      - "Romance"
+      - "Thriller"
+    default-language: "English"
+    max-movies: 30
+    api-keys:
+      tmdb-api-key: "qa-tmdb-api-key"
+    feature-flags:
+      enable-recommendations: true
+      enable-advanced-search: false
