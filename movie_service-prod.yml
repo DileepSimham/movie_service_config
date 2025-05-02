@@ -12,7 +12,7 @@ movie:
     default-language: "English"
     max-movies: 50
     api-keys:
-      tmdb-api-key: "your_tmdb_api_key"
+      tmdb-api-key: "prod-tmdb-api-key"
     feature-flags:
       enable-recommendations: true
-      enable-advanced-search: false
+      enable-advanced-search: true
