@@ -1,0 +1,16 @@
+movie:
+  service:
+    name: Movie Service (DEV)
+    description: "Movie service running in development environment."
+    version: "1.0-DEV"
+    supported-genres:
+      - "Action"
+      - "Drama"
+      - "Comedy"
+    default-language: "English"
+    max-movies: 20
+    api-keys:
+      tmdb-api-key: "dev-tmdb-api-key"
+    feature-flags:
+      enable-recommendations: false
+      enable-advanced-search: false
