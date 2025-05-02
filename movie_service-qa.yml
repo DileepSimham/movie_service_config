@@ -1,7 +1,7 @@
 movie:
   service:
     name: Movie Service (QA)
-    description: "Movie service for QA testing."
+    description: "Movie service for QA STAGE testing."
     version: "1.0-QA"
     supported-genres:
       - "Action"
