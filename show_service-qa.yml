@@ -1,0 +1,13 @@
+show:
+  service:
+    name: "Show Service (QA)"
+    description: "Show service for QA testing"
+    version: "1.0-QA"
+    supportedLanguages:
+      - English
+      - Kannada
+    defaultLanguage: English
+    maxShows: 20
+    featureFlags:
+      enableSchedule: true
+      enableAutoCancel: true
