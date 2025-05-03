@@ -1,0 +1,12 @@
+show:
+  service:
+    name: "Show Service (Prod)"
+    description: "Live Show Service for production"
+    version: "1.0-PROD"
+    supportedLanguages:
+      - English
+    defaultLanguage: English
+    maxShows: 100
+    featureFlags:
+      enableSchedule: true
+      enableAutoCancel: true
