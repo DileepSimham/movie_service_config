@@ -1,0 +1,14 @@
+show:
+  service:
+    name: "Show Service (Dev)"
+    description: "Show service for local development"
+    version: "1.0-DEV"
+    supportedLanguages:
+      - English
+      - Hindi
+      - Telugu
+    defaultLanguage: English
+    maxShows: 10
+    featureFlags:
+      enableSchedule: true
+      enableAutoCancel: false
