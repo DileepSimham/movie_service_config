@@ -14,3 +14,6 @@ movie:
     feature-flags:
       enable-recommendations: true
       enable-advanced-search: false
+
+    tmdb:
+      url: "https://api.themoviedb.org/3"
